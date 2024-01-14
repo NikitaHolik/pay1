@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: cursive;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    
+}
+
+input,button.textarea{font-family: cursive;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400; font-family: cursive;}
+
+body{
+    background-color: #306EFF;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.container img {
+    float: right;
+    color: transparent;
+    border: none;
+    padding-right: 50px;
+}
+
+.payment-section {
+    background-color: white;
+    width: 910px;
+    height: 420px;
+    border-radius: 15px;
+    box-shadow: 6px 5px 5px black;
+    
+}
+
+.payment-section h1{
+    font-size: 48px;
+    padding-left: 15%;
+    padding-top: 3%;
+}
+
+.sub button{
+    background-color: #1C1CFF;
+    color: white;
+    border-radius: 3px;
+}
+
+.in{
+    padding-left: 12%;
+    padding-top: 3%;
+ }
+
+ .in input{
+    background-color: #DEDDDD;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+ }
+
+.cardd {
+    padding-left: 13.5%;
+}
+
+.cardd input{
+    background-color: #DEDDDD;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 108px;
+    text-align: center;
+}
+
+.payment-section p{
+    padding-left: 13.8%;
+    padding-top: 1%;
+}
+
+.sub{
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.sub button{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.sub p {
+    padding-left: 0.5%;
+    font-size: 12px;
+}
+
+.sub span{
+    padding-left: 12%;
+    color: #1C1CFF;
+}
+
